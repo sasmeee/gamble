@@ -1,0 +1,40 @@
+{
+  "name": "@sasmeee/gamble",
+  "version": "0.0.0-development",
+  "description": "A simple gamble system built with Node.js and TypeScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "example": "pnpm exec ts-node example/example.ts",
+    "semantic-release": "sementic-release"
+  },
+  "keywords": [
+    "gamble",
+    "nodejs",
+    "typescript",
+    "gambling-system"
+  ],
+  "author": "Sasmitha Ashinsana",
+  "license": "ISC",
+  "homepage": "https://github.com/sasmeee/gamble#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasmeee/gamble.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sasmeee/gamble/issues"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "^24.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
